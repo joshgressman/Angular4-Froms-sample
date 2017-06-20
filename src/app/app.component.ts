@@ -10,7 +10,8 @@ export class AppComponent {
   @ViewChild('f') signupForm: NgForm; //access the local reference of f in the form
    defaultQuestion = 'pet';
    answer = '';
-   
+   genders = ['male', 'female'];
+
   suggestUserName() {
     const suggestedName = 'Superuser';
   }
